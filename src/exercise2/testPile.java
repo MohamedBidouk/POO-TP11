@@ -11,15 +11,6 @@ public class testPile {
 		System.out.println(p.dernier());
 		p.depiler();
 		}
-		// Tester aussi p.empiler("L'entier " + i);
-		/* System.out.println((Integer) p.dernier());
-
-		=> Erreur à l'exécution de casting
-		=> System.out.println(p.dernier());
-		=> Ouverture sur les exceptions */
-		/* Remplacer while(!p.estVide()) par for(int i = 0 ; i < 20 ; i++)
-		=> Erreur à l'exécution lors du dépilement d'une pile vide
-		=> Ouverture sur les exceptions mais surtout sur la généricité */
 	}
 
 }
