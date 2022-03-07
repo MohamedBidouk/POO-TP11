@@ -1,6 +1,6 @@
 package exercise2;
 
-public class Noeud {
+public class Noeud<T> {
 	Object info;
-	Noeud suivant;
+	Noeud<T> suivant;
 }

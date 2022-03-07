@@ -2,7 +2,7 @@ package exercise2;
 
 public class testPile {
 	public static void main(String[]args){
-		PileListe p = new PileListe();
+		PileListe <Integer> p = new PileListe <Integer> ();
 		for(int i = 0 ; i < 10 ; i++) {
 			p.empiler(new Integer(i));
 			p.empiler("L'entier " + i);

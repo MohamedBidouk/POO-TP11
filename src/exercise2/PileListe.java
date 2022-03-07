@@ -1,7 +1,7 @@
 package exercise2;
 
-public class PileListe implements Pile{
-	private Noeud sommet;
+public class PileListe<T> implements Pile<T>{
+	private Noeud<T> sommet;
 	public PileListe(){
 	sommet = null;
 	}
@@ -12,7 +12,7 @@ public class PileListe implements Pile{
 	return sommet.info;
 	}
 	public void empiler(Object o){
-	Noeud n = new Noeud();
+	Noeud<T> n = new Noeud<T>();
 	n.info = o;
 	n.suivant = sommet;
 	sommet = n;

@@ -1,6 +1,6 @@
 package exercise2;
 
-public interface Pile {
+public interface Pile<T> {
 	public boolean estVide();
 	public Object dernier();
 	public void depiler();
